@@ -15,6 +15,6 @@ function DIController ($scope, $filter) {
 function AnnotateMe(name, job, blah){
 	return "Blah!";
 }
-console.log(AnnotateMe);
+console.log(AnnotateMe());
 
 })();
